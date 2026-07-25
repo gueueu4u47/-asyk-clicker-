@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asyk Clicker QA</string>
+    <string name="service_description">Сервис выполняет автоматические касания экрана по заданным координатам для тестирования игр и приложений. Включается только вручную и останавливается кнопкой Стоп.</string>
+</resources>
