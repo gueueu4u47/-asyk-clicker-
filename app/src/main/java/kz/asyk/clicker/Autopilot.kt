@@ -11,13 +11,10 @@ import kotlin.math.abs
  * Коэффициенты подобраны на симуляции: 0 смертей на 90 000 кадрах.
  */
 class Autopilot(
-    var playerR: Int = 228,
-    var playerG: Int = 214,
-    var playerB: Int = 181,
-    var tolerance: Int = 46,
-    var lookahead: Float = 3f,
-    var holdOffset: Int = 7,      // в уменьшенных пикселях (~26 реальных / 4)
-    var minCooldownMs: Long = 60
+    var playerR: Int = 21,
+var playerG: Int = 89,
+var playerB: Int = 245,
+var tolerance: Int = 60,
 ) {
 
     data class Decision(val shouldClick: Boolean, val playerY: Float, val gapTop: Int, val gapBottom: Int)
